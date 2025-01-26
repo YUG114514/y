@@ -63,8 +63,8 @@ TextLabel.Parent = ScrollingFrame
 TextLabel.Size = UDim2.new(1, -10, 2, 0)
 TextLabel.Position = UDim2.new(0, 0, 0, 0)
 TextLabel.Text = [[
-1.更新时间1月27 凌晨4：38
-2.更新了Ui
+1.更新时间1月27 凌晨4:50
+2.更新了doors脚本为了么叽还有伐木大亨的脚本🤑🤑🤑😶‍🌫️
 ]]
 
 TextLabel.TextSize = 14
@@ -153,7 +153,7 @@ Tab:AddParagraph("暂时不更新 谢谢!!!")
 
 Tab:AddParagraph("请勿🈚️喷😭😭😭")
 
-Tab:AddParagraph("更新电脑键盘")
+Tab:AddParagraph("更新doors和伐木大亨脚本")
 
 local Tab =Window:MakeTab({
 
@@ -1040,6 +1040,51 @@ Tab:AddButton({
 })
 
 local Tab = Window:MakeTab({
+	Name = "doors",
+	Icon = "rbxassetid://7733779610",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "功能"
+})
+
+Tab:AddButton({
+	Name = "汉化doors",
+	Callback = function()
+--[[Doors Blackking And BobHub脚本汉化]]loadstring(game:HttpGet("\104\116\116\112\115\58\47\47\112\97\115\116\101\98\105\110\46\99\111\109\47\114\97\119\47\54\53\84\119\84\56\106\97"))()
+end
+})
+
+Tab:AddButton({
+	Name = "穿墙",
+	Callback = function()
+loadstring(game:HttpGet("https://github.com/DXuwu/OK/raw/main/clip"))()
+end
+})
+
+Tab:AddButton({
+	Name = "超级好👌",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/Doors"))()
+end
+}) 
+
+Tab:AddButton({
+	Name = "5",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/VaniaPerets/FolderGui-FolderHub/main/loader.lua", true))()
+end
+})
+
+Tab:AddButton({
+	Name = "MS",
+	Callback = function()
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/MSDOORS/main/MSHUB_Loader.lua"),true))()
+end
+})
+
+local Tab = Window:MakeTab({
 	Name = "极速传奇",
 	Icon = "rbxassetid://7733779610",
 	PremiumOnly = false
@@ -1418,6 +1463,28 @@ Tab:AddButton({
 loadstring(game:HttpGet("https://pastebin.com/raw/1QCwNAXx"))()
 	end
 })
+
+local Tab = Window:MakeTab({
+	Name = "伐木",
+	Icon = "rbxassetid://7733779610",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+  Name = "白",
+  Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CloudX-ScriptsWane/ScriptsDache/main/%E4%BC%90%E6%9C%A8%E5%A4%A7%E4%BA%A822.lua", true))()
+  end
+})
+
+Tab:AddButton({
+	Name = "超强(使用教程可以看我b站[公告])",
+	Callback = function()
+	loadstring(game:HttpGet"https://raw.githubusercontent.com/darkxwin/darkxsourcethinkyoutousedarkx/main/darkx")()
+  	end
+})
+
+local Section = Tab:AddSection({	Name = "传送地点"})                                      Tab:AddButton({Name = "火木",      Callback = function()              game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1615.8934326171875, 622.9998779296875, 1086.1234130859375)               end                                    })                                                                              Tab:AddButton({                  Name = "画室",                 Callback = function()                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(5241.55810546875, -166.00003051757812, 709.5656127929688)                end                                    })                                                                Tab:AddButton({                  Name = "幻影木",              Callback = function()             game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-56.28166198730469, -213.13137817382812, -1357.8018798828125)              end                                   })                                                                Tab:AddButton({                 Name = "木材反斗城",            Callback = function()             game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(252.31906127929688, 2.9999992847442627, 56.9854850769043)                  end                                   })                                                                               Tab:AddButton({                 Name = "冰木",                  Callback = function()              game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1522.8817138671875, 412.3657531738281, 3277.71826171875)                     end                                    })                                                                Tab:AddButton({                  Name = "椰子木",                Callback = function()              game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2615.709228515625, -5.899986743927002, -21.30138397216797)                  end                                     })                                               
 
 local Tab = Window:MakeTab({
 	Name = "内脏与黑火药",
